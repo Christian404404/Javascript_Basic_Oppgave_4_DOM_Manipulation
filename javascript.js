@@ -49,7 +49,7 @@ function makeKitties() {
     // Random index based on kittyImages.length array
     const randoIndex = Math.floor(Math.random() * kittyImages.length);
     // Path to images which will be used
-    const kittyImagesPath = `/img/${kittyImages[randoIndex]}`;
+    const kittyImagesPath = `./img/${kittyImages[randoIndex]}`;
     const img = document.createElement("img");
     img.src = kittyImagesPath;
     img.alt = "generated cats";
